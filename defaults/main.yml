@@ -18,6 +18,12 @@ zabbix_web_username: Admin
 zabbix_web_password: zabbix
 zabbix_web_validate_certs: no
 
+# Details to connect to the Zabbix backend
+zabbix_backend_server: 'localhost'
+zabbix_backend_server_port: '10051'
+zabbix_backend_server_name: 'zabbix'
+
+
 # You can provision Zabbix groups.
 # Most options map directly to the documentation:
 # https://docs.ansible.com/ansible/latest/modules/zabbix_group_module.html
