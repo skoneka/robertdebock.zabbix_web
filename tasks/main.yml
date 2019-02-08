@@ -70,8 +70,7 @@
     visible_name: "{{ item.visible_name | default(item.name) }}"
     description: "{{ item.description | default([omit]) }}"
     host_groups: "{{ item.groups }}"
-    link_templates:
-      - "{{ item.link_templates }}"
+    link_templates: "{{ item.link_templates }}"
     status: enabled
     state: present
     inventory_mode: manual
